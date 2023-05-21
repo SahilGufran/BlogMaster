@@ -5,7 +5,9 @@ const articleRouter = require('./routes/articles')
 const methodOverride = require('method-override')
 const app = express()
 
-mongoose.connect('mongodb://localhost/blog5', {
+
+
+mongoose.connect('mongodb+srv://cyclic:cyclic@cyclic.fbqlntd.mongodb.net/cyclic', {
   useNewUrlParser: true, useUnifiedTopology: true, useCreateIndex: true
 })
 
